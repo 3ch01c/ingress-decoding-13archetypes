@@ -1,0 +1,8 @@
+---
+version: '3'
+services:
+    dreamer:
+        container_name: ingress-decoding-13a-dreamer
+        image: 3ch01c/ingress-decoding-13a:dreamer
+        build: 
+            context: dreamer
